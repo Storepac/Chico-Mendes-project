@@ -57,6 +57,7 @@
 	--headings-h4-size: 2rem;
 	--headings-h5-size: 1.5rem;
 	--headings-h6-size: 1rem;
+	--white: #fff
 }
 
 
@@ -698,6 +699,11 @@ a,
 .row.g-0 {
   margin-left: 0;
   margin-right: 0;
+}
+
+.just-center{
+	display: flex;
+	justify-content: center;
 }
 
 .g-0 > div[class^="col"] {
