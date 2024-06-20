@@ -1040,7 +1040,7 @@ height: 20px;
     margin-right: 10px;
 }
 
-.menu-contact i,
+#,
 .footer-contact i{
 	padding-right: 10px;
 	color: #000000;
@@ -3727,6 +3727,14 @@ footer .container {
 *
 * 
 */
+
+.video-container {
+	padding: 20px;
+}
+.video-responsive {
+	width: 100%;
+	height: auto;
+}
 
 .img-fluid,
 .single-post-content img,
