@@ -3901,6 +3901,10 @@ button, input, optgroup, select, textarea {
 	animation: hoverarrow cubic-bezier(0,.77,.78,.84) .5s;
 }
 
+.green-color{
+	color: #9da731;
+}
+
 .gree-btn{
 	background-color: #9da731;
 }
