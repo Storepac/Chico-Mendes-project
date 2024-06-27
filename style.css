@@ -3689,7 +3689,16 @@ footer .container {
 *
 * 
 */
+.card{
+	border-radius: 10px;
+}
+.card-body img{
+	padding: 20px;
+	max-width: 400px;
+	height: auto;
+	max-height: 220px;
 
+}
 .video-container {
 	padding: 20px;
 }
@@ -3787,7 +3796,7 @@ button, input, optgroup, select, textarea {
 	font-size: 15px;
 	font-weight: 700;
 	color: #ffffff;
-	background: #9da731;
+	background: rgba(59, 131, 246, 0.932);
 	padding: 10px 25px;
 	display: inline-block;
 	border: none;
@@ -3859,7 +3868,7 @@ button, input, optgroup, select, textarea {
 .el-btn .elementor-button.elementor-size-md:hover,
 .el-btn .elementor-button.elementor-size-sm:hover{
 	color: #fff;
-	background: #9da731;
+	background: rgba(34, 83, 161, 0.911);
 	box-shadow: 0 5px 20px rgba(74,125,109,0.3);
 }
 
@@ -3883,13 +3892,21 @@ button, input, optgroup, select, textarea {
 }
 
 .read-more-v2:hover{
-	color: #9da731;
+	color: rgba(59,130,246,0.5);
 }
 
 .read-more-v2:hover:after{
-	background-color: #9da731;
+	background-color: rgba(59,130,246,0.5);
 	-webkit-animation: hoverarrow cubic-bezier(0,.77,.78,.84) .5s;
 	animation: hoverarrow cubic-bezier(0,.77,.78,.84) .5s;
+}
+
+.gree-btn{
+	background-color: #9da731;
+}
+
+.gree-btn:hover{
+	background-color: #6a7022;
 }
 
 .white-btn-v2{
