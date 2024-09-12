@@ -3699,10 +3699,36 @@ footer .container {
 	max-height: 220px;
 
 }
-.video-container {
-	padding: 20px;
-}
 
+/* video  yt*/
+
+.video-container {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	gap: 40px;
+	padding: 10px;
+}
+.video {
+	flex: 1 1 calc(33.333% - 50px);
+	box-sizing: border-box;
+	max-width: 300px;
+}
+.video img {
+	width: 100%;
+	height: auto;
+	border-radius: 10px;
+}
+@media (max-width: 768px) {
+	.video {
+		flex: 1 1 calc(50% - 20px);
+	}
+}
+@media (max-width: 480px) {
+	.video {
+		flex: 1 1 100%;
+	}
+ }
 .img-fluid,
 .single-post-content img,
 .custom-page-template img {
